@@ -1,0 +1,11 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "target": "es2015",
+    "allowJs": false,
+    "module": "commonjs",
+    "outDir": "lib"
+  },
+  "include": ["src"],
+  "exclude": ["node_modules"]
+}

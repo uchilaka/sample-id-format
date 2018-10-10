@@ -1,0 +1,22 @@
+{
+  "name": "sample-id-format",
+  "version": "1.0.0",
+  "description": "Project to build sample formatted ID data",
+  "main": "lib/index.js",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "debug": "tsc && yarn start",
+    "start": "node lib/index",
+    "tsc": "tsc --watch"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.117",
+    "@types/node": "^10.11.6",
+    "typescript": "^3.1.1"
+  },
+  "dependencies": {
+    "colors": "^1.3.2",
+    "lodash": "^4.17.11"
+  }
+}
